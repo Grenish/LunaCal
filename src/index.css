@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(180deg, #373e44 -100%, #191b1f 100%);
+}
+
+.btn {
+  -webkit-border-radius: 125px;
+  border-radius: 125px;
+  background: #152225;
+  -webkit-box-shadow: 19px 19px 46px #0d1416, -19px -19px 46px #1d3034;
+  box-shadow: 19px 19px 46px #0d1416, -19px -19px 46px #1d3034;
+}
+
+.addBtn {
+  box-shadow: inset 0px 11px 31px -30px #ffffff;
+}
+
+.addBtBtn {
+  box-shadow: 9px 12px 22px -5px #000000;
+}
